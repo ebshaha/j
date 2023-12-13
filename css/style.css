@@ -1,0 +1,100 @@
+@media screen and (max-width: 600px) {
+   * {
+      margin: 0;
+      padding: 0;
+   }
+
+   p {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+   h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-bottom: 2.5%;
+   }
+
+   body {
+      background-color: rgb(218, 30, 77);
+      padding: 5% 10% 5% 10%;
+   }
+
+   main {
+      background-color: whitesmoke;
+      border-radius: 15px;
+      box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+      padding: 5%;
+      text-align: center;
+   }
+
+   button {
+      background-color: rgb(218, 30, 77);
+      border: none;
+      border-radius: 5px;
+      padding: 1%;
+      color: whitesmoke;
+      transition: 0.25s;
+      width: 100px;
+      height: 40px;
+   }
+
+   button:hover {
+      cursor: pointer;
+      background-color: rgb(235, 42, 90);
+      transition: 0.25s;
+   }
+
+   button:active {
+      cursor: pointer;
+      background-color: rgb(197, 25, 68);
+      transition: 0.25s;
+   }
+}
+@media screen and (min-width: 601px) {
+   * {
+      margin: 0;
+      padding: 0;
+   }
+
+   p {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+   h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-bottom: 2.5%;
+   }
+
+   body {
+      background-color: rgb(218, 30, 77);
+      padding: 19% 25% 20% 25%;
+   }
+
+   main {
+      background-color: whitesmoke;
+      border-radius: 15px;
+      box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+      padding: 2.5%;
+      text-align: center;
+   }
+
+   button {
+      background-color: rgb(218, 30, 77);
+      border: none;
+      border-radius: 5px;
+      padding: 1%;
+      color: whitesmoke;
+      transition: 0.25s;
+   }
+
+   button:hover {
+      cursor: pointer;
+      background-color: rgb(235, 42, 90);
+      transition: 0.25s;
+   }
+
+   button:active {
+      cursor: pointer;
+      background-color: rgb(197, 25, 68);
+      transition: 0.25s;
+   }
+}
